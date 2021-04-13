@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.cards {
+  height: 160px;
+  width: 900px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 10px rgb(224, 224, 224);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+img {
+  height: 120px;
+  border-radius: 100%;
+}
+p {
+  max-width: 70%;
+  text-align: left;
+}
+.ids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+}
+.content {
+  width: 600px;
+  background-color: rgb(250, 250, 250);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.btnrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 300px;
+  background-color: rgb(252, 250, 250);
+}
+button {
+  background-color: #1aa260;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border-color: none;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+h4 {
+  margin-top: 6px;
+}
+@media screen and (max-width: 768px)
+{
+  p{
+    max-width: 300px;
+    font-size: 14px;
+    text-align: left;
+  }
+  body{
+    height: 180vh;
+  }
+  .cards{
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+  }
+  .content{
+    width: 290px;
+    
+  }
+  .btnrows{
+    margin-top: 8px;
+  }
+}
