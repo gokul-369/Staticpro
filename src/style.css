@@ -76,7 +76,7 @@ form h2 {
 .input-div.focus div h5 {
   top: -5px;
   font-size: 15px;
-  color:#32be8f;
+  color: #32be8f;
 }
 .input-div.focus:after,
 .input-div.focus:before {
