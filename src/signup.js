@@ -7,6 +7,18 @@ const eye2 = document.querySelector("#eye2");
 
 var state = false;
 
+
+function check() {
+  if(password.value != cpassword.value)
+  {
+    alert("Passwords did not match")
+    return false
+  }
+  else {
+     true
+  }
+}
+
 function toggle_eye() {
   if (state) {
     password.setAttribute("type", "password");
@@ -37,3 +49,4 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusfunc);
   input.addEventListener("blur", blurfunc);
 });
+

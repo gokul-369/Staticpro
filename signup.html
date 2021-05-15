@@ -4,7 +4,7 @@
     <title>Sign up</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -20,7 +20,7 @@
         <img src="src/img/bg.svg" />
       </div>
       <div class="login-container">
-        <form autocomplete="off" action="login.html">
+        <form autocomplete="off"  onsubmit = "return check();" action ="login.html">
           <img class="avatar" src="src/img/avatar.svg" />
           <h2>Welcome</h2>
           <div class="input-div one">
@@ -75,6 +75,7 @@
             </div>
           </div>
           <input class="btn" type="submit" value="Sign Up" />
+          <h3>Already Registered ? then <a href="signup.html">Login</a></h3>
         </form>
       </div>
     </div>
